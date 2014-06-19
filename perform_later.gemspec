@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   # specify any dependencies here; for example:
   s.add_dependency 'rails', '>= 3.0'
   s.add_dependency 'resque', '> 1.25'
-  s.add_dependency 'resque-scheduler'
+  s.add_dependency 'resque-scheduler', '~> 2.4.0'
   s.add_dependency 'redis'
 
 
